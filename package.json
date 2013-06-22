@@ -3,7 +3,7 @@
   "name": "rex-utils",
   "description": "A collection of tools and utilities designed to make the life of a developer a less stressful one. Quickly back up all your dotfiles and various .conf files on your machine so that you have a safety net just in case.",
   "homepage": "https://github.com/rex/rex-utils",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/rex-utils.js",
   "bin": {
     "rex-utils": "bin/rex-kickstart",
