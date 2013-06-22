@@ -1,0 +1,42 @@
+{
+  "author": "Pierce Moore <me@prex.io>",
+  "name": "rex-utils",
+  "description": "A collection of tools and utilities designed to make the life of a developer a less stressful one. Quickly back up all your dotfiles and various .conf files on your machine so that you have a safety net just in case.",
+  "homepage": "https://github.com/rex/rex-utils",
+  "version": "0.1.0",
+  "main": "lib/rex-utils.js",
+  "bin": {
+    "rex-utils": "bin/rex-kickstart",
+    "rutils": "bin/rex-kickstart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rex/rex-utils.git"
+  },
+  "keywords": [
+    "utility",
+    "cli",
+    "shell",
+    "rex"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "dependencies": {
+    "rex-exec": "*",
+    "rex-shell": "*",
+    "underscore": "*",
+    "optimist": "*",
+    "async": "*"
+  },
+  "config": {},
+  "bugs": {
+    "url": "https://github.com/rex/rex-utils/issues"
+  },
+  "scripts": {
+    "test": "node ./test/rex-utils.test.js"
+  }
+}
