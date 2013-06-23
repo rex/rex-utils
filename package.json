@@ -29,7 +29,6 @@
     "rex-exec": "*",
     "rex-shell": "*",
     "underscore": "*",
-    "optimist": "*",
     "async": "*"
   },
   "config": {},
