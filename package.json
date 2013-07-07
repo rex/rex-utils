@@ -28,7 +28,7 @@
   "dependencies": {
     "rex-exec": "*",
     "rex-shell": "*",
-    "underscore": "*",
+    "underscore": "1.5.x",
     "async": "*"
   },
   "config": {},
